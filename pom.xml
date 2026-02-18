@@ -31,6 +31,11 @@
             <version>3.3.5</version>
         </dependency>
         <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>5.13.0</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
@@ -46,7 +51,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.data.http.HttpsFileSystemExample</mainClass>
+                            <mainClass>com.data.jna.ThreadAffinityUtils</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
